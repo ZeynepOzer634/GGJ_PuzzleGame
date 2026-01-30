@@ -1149,3 +1149,676 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.01.30-19.20.27:321][  8]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 10.949865
 [2026.01.30-19.20.27:323][  8]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1164040915
 [2026.01.30-19.20.27:323][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10.949865, Update Interval: 316.485474
+[2026.01.30-19.22.07:261][434]LogDerivedDataCache: C:/Users/zyzy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.30-19.25.44:074][104]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 328.036407
+[2026.01.30-19.25.45:073][107]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-19.25.45:074][107]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 328.702850, Update Interval: 311.279633
+[2026.01.30-19.26.09:426][412]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.30-19.26.09:489][412]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.30-19.26.09:489][412]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2026.01.30-19.26.09:521][412]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 33.138 ms
+[2026.01.30-19.26.09:562][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.30-19.26.09:711][412]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.01.30-19.26.09:712][412]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.01.30-19.26.09:773][412]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.01.30-19.26.09:858][412]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.30-19.26.09:859][412]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.483 ms
+[2026.01.30-19.26.09:859][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086501s)
+[2026.01.30-19.26.09:859][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.105959s)
+[2026.01.30-19.26.09:927][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2026.01.30-19.26.09:958][412]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2026.01.30-19.26.09:964][412]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.30-19.26.09:964][412]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.30-19.26.09:964][412]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.30-19.26.09:965][412]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.30-19.26.09:968][412]LogWorldPartition: Display: WorldPartition initialize took 3.532 ms (total: 256.878 ms)
+[2026.01.30-19.26.09:968][412]LogPlayLevel: PIE: World Init took: (0.009276s)
+[2026.01.30-19.26.10:020][412]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.01.30-19.26.10:020][412]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.30-19.26.10:020][412]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.30-19.26.10:020][412]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.30-19.26.10:020][412]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.30-19.26.10:020][412]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.30-19.26.10:020][412]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.30-19.26.10:020][412]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.30-19.26.10:020][412]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.30-19.26.10:020][412]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.30-19.26.10:020][412]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.30-19.26.10:020][412]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.30-19.26.10:023][412]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.30-19.26.10:046][412]LogAudioMixer: Display: Using Audio Hardware Device Hoparlör (Realtek(R) Audio)
+[2026.01.30-19.26.10:047][412]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.30-19.26.10:047][412]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.30-19.26.10:047][412]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.30-19.26.10:047][412]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.01.30-19.26.10:047][412]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.01.30-19.26.10:050][412]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.01.30-19.26.10:050][412]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.01.30-19.26.10:050][412]LogInit: FAudioDevice initialized with ID 2.
+[2026.01.30-19.26.10:050][412]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_FirstPerson'.
+[2026.01.30-19.26.10:050][412]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.01.30-19.26.10:166][412]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.01.30-19.26.10:202][412]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 60) at 2026.01.30-22.26.10
+[2026.01.30-19.26.10:214][412]LogWorld: Bringing up level for play took: 0.014492
+[2026.01.30-19.26.10:217][412]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2026.01.30-19.26.11:002][412]PIE: Server logged in
+[2026.01.30-19.26.11:014][412]PIE: Play in editor total start time 1,555 seconds.
+[2026.01.30-19.26.13:767][415]LogSlate: Took 0.081029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.01.30-19.26.20:191][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.30-19.26.20:192][472]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.01.30-19.26.20:271][472]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.30-19.26.20:462][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.30-19.26.20:462][472]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2026.01.30-19.26.20:540][472]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.30-19.26.20:559][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.30-19.26.20:791][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.30-19.26.20:791][472]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.01.30-19.26.20:876][472]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.01.30-19.26.20:879][472]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.01.30-19.26.21:306][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.01.30-19.26.21:549][473]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2026.01.30-19.30.59:048][372]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 642.990295
+[2026.01.30-19.31.00:024][374]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-19.31.00:024][374]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 643.652893, Update Interval: 338.623627
+[2026.01.30-19.35.34:540][316]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.30-19.35.34:544][316]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.30-19.35.34:544][316]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2026.01.30-19.35.34:544][316]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 805 us (total: 33.943 ms)
+[2026.01.30-19.35.34:545][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.30-19.35.34:570][316]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.01.30-19.35.34:575][316]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.30-19.35.34:577][316]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.467 ms (total: 2.951 ms)
+[2026.01.30-19.35.34:577][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007840s)
+[2026.01.30-19.35.34:577][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.007901s)
+[2026.01.30-19.35.34:600][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.01.30-19.35.34:601][316]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2026.01.30-19.35.35:051][316]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.30-19.35.35:051][316]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.30-19.35.35:051][316]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.30-19.35.35:051][316]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.30-19.35.35:052][316]LogWorldPartition: Display: WorldPartition initialize took 1.671 ms (total: 258.550 ms)
+[2026.01.30-19.35.35:052][316]LogPlayLevel: PIE: World Init took: (0.451121s)
+[2026.01.30-19.35.35:054][316]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.01.30-19.35.35:054][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.30-19.35.35:054][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.30-19.35.35:054][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.30-19.35.35:054][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.30-19.35.35:054][316]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.30-19.35.35:054][316]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.30-19.35.35:054][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.30-19.35.35:054][316]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.30-19.35.35:054][316]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.30-19.35.35:054][316]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.30-19.35.35:054][316]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.30-19.35.35:056][316]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.30-19.35.35:081][316]LogAudioMixer: Display: Using Audio Hardware Device Hoparlör (Realtek(R) Audio)
+[2026.01.30-19.35.35:081][316]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.30-19.35.35:081][316]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.30-19.35.35:081][316]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.30-19.35.35:081][316]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.01.30-19.35.35:081][316]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.01.30-19.35.35:084][316]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.01.30-19.35.35:084][316]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.01.30-19.35.35:084][316]LogInit: FAudioDevice initialized with ID 3.
+[2026.01.30-19.35.35:084][316]LogAudio: Display: Audio Device (ID: 3) registered with world 'Lvl_FirstPerson'.
+[2026.01.30-19.35.35:084][316]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.01.30-19.35.35:089][316]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.01.30-19.35.35:092][316]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 60) at 2026.01.30-22.35.35
+[2026.01.30-19.35.35:092][316]LogWorld: Bringing up level for play took: 0.003269
+[2026.01.30-19.35.35:096][316]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2026.01.30-19.35.35:103][316]PIE: Server logged in
+[2026.01.30-19.35.35:105][316]PIE: Play in editor total start time 0,561 seconds.
+[2026.01.30-19.36.45:734][296]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 989.698303
+[2026.01.30-19.36.45:953][309]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-19.36.45:953][309]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 989.899292, Update Interval: 305.934631
+[2026.01.30-19.37.44:220][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.30-19.37.44:220][794]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.01.30-19.37.44:220][794]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.30-19.37.44:221][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.30-19.37.44:221][794]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2026.01.30-19.37.44:223][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.30-19.37.44:226][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.30-19.37.44:246][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.30-19.37.44:246][794]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.01.30-19.37.44:247][794]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.01.30-19.37.44:249][794]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.01.30-19.37.44:256][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.01.30-19.37.44:285][795]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2026.01.30-19.42.02:096][566]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1306.058105
+[2026.01.30-19.42.03:096][569]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-19.42.03:096][569]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1306.725708, Update Interval: 309.920959
+[2026.01.30-19.43.39:310][171]Cmd: SELECT NONE
+[2026.01.30-19.47.29:813][899]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1633.774902
+[2026.01.30-19.47.30:813][902]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-19.47.30:813][902]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1634.441528, Update Interval: 334.443176
+[2026.01.30-19.53.48:864][ 36]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2012.826050
+[2026.01.30-19.53.49:863][ 39]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-19.53.49:863][ 39]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2013.492920, Update Interval: 302.310852
+[2026.01.30-19.59.50:598][278]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2374.561768
+[2026.01.30-19.59.51:597][281]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-19.59.51:597][281]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2375.228516, Update Interval: 341.370270
+[2026.01.30-20.06.12:647][424]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2756.613037
+[2026.01.30-20.06.13:649][427]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-20.06.13:649][427]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2757.280273, Update Interval: 320.118408
+[2026.01.30-20.12.25:717][543]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3129.682373
+[2026.01.30-20.12.26:716][546]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-20.12.26:716][546]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3130.349365, Update Interval: 311.336395
+[2026.01.30-20.18.26:449][625]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3490.412598
+[2026.01.30-20.18.27:449][628]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-20.18.27:449][628]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3491.079346, Update Interval: 351.329681
+[2026.01.30-20.22.07:262][288]LogDerivedDataCache: C:/Users/zyzy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.30-20.25.04:842][820]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3888.806641
+[2026.01.30-20.25.05:843][823]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-20.25.05:843][823]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3889.473389, Update Interval: 313.682068
+[2026.01.30-20.31.04:224][898]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4248.195801
+[2026.01.30-20.31.05:230][901]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-20.31.05:230][901]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4248.868164, Update Interval: 337.288727
+[2026.01.30-20.37.19:659][ 24]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4623.635742
+[2026.01.30-20.37.20:659][ 27]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-20.37.20:659][ 27]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4624.302734, Update Interval: 336.466553
+[2026.01.30-20.43.49:053][192]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5013.033203
+[2026.01.30-20.43.50:053][195]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-20.43.50:053][196]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5013.699707, Update Interval: 313.815735
+[2026.01.30-20.47.43:480][971]LogSlate: Took 0.031543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.01.30-20.48.53:352][996]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.01.30-20.49.15:835][ 52]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson1
+[2026.01.30-20.49.15:836][ 52]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.01.30-20.49.15:836][ 52]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.30-20.49.15:836][ 52]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Lvl_FirstPerson1.Lvl_FirstPerson1, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.30-20.49.15:854][ 52]LogWorldPartition: Display: WorldPartition initialize took 17.572 ms (total: 276.123 ms)
+[2026.01.30-20.49.31:867][978]LogContentBrowser: Attempting asset rename: Lvl_FirstPerson1 -> Level3
+[2026.01.30-20.49.34:262][978]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.30-20.49.35:493][978]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2026.01.30-20.49.35:522][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.01.30-20.49.35:547][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.01.30-20.49.35:599][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Level3" FILE="../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Level3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.01.30-20.49.35:652][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.01.30-20.49.35:702][978]LogSavePackage: Moving output files for package: /Game/FirstPerson/Level3
+[2026.01.30-20.49.35:702][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/Level39E26E8B4480AEAE54B13FDAE95C77FBE.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Level3.umap'
+[2026.01.30-20.49.35:822][978]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.30-20.49.35:900][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/0/ZR/LE5IB6MEHIX376H8TJUDAC
+[2026.01.30-20.49.35:900][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/LE5IB6MEHIX376H8TJUDACCE9337904C72A38D6F467089881D9A54.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/0/ZR/LE5IB6MEHIX376H8TJUDAC.uasset'
+[2026.01.30-20.49.35:978][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/6/5T/9GTLYMK1SGX43VH6IHEZ17
+[2026.01.30-20.49.35:978][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/9GTLYMK1SGX43VH6IHEZ17B6ECE6F34430B7601F2C8A96BFAC4861.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/6/5T/9GTLYMK1SGX43VH6IHEZ17.uasset'
+[2026.01.30-20.49.35:991][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/D/9X/39TV0RFUYOMEXO6S9CNZ1F
+[2026.01.30-20.49.35:991][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/39TV0RFUYOMEXO6S9CNZ1F60F3DAA743067EAD1DF577AA678469A8.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/D/9X/39TV0RFUYOMEXO6S9CNZ1F.uasset'
+[2026.01.30-20.49.36:004][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/5/GL/A3HKLN9TQIPSHWXJ2K01ET
+[2026.01.30-20.49.36:004][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/A3HKLN9TQIPSHWXJ2K01ET60EE92BA4FB2C4A58E76188B02B04434.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/5/GL/A3HKLN9TQIPSHWXJ2K01ET.uasset'
+[2026.01.30-20.49.36:029][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/4/3L/YUYM14P5CC2S7EIRNI8KAH
+[2026.01.30-20.49.36:029][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/YUYM14P5CC2S7EIRNI8KAH6EE4726E47C4A783321ECA94C5093A46.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/4/3L/YUYM14P5CC2S7EIRNI8KAH.uasset'
+[2026.01.30-20.49.36:105][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/E/JJ/DVWH7II7TKHB9IFPXOJ9XY
+[2026.01.30-20.49.36:105][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/DVWH7II7TKHB9IFPXOJ9XYCB64519845268D30EAFE5F876EA53013.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/E/JJ/DVWH7II7TKHB9IFPXOJ9XY.uasset'
+[2026.01.30-20.49.36:144][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/9/AP/51SO77O2CADQCB86FCTONH
+[2026.01.30-20.49.36:144][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/51SO77O2CADQCB86FCTONHB9F1AD54422C15840091DAB4C95F7E1F.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/9/AP/51SO77O2CADQCB86FCTONH.uasset'
+[2026.01.30-20.49.36:160][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/4/5T/2605V9IBF5YGVC3JF08LH1
+[2026.01.30-20.49.36:161][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/2605V9IBF5YGVC3JF08LH1F8B983F646E8EF5F940A2CB8848527D9.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/4/5T/2605V9IBF5YGVC3JF08LH1.uasset'
+[2026.01.30-20.49.36:194][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/4/G0/HM0XBP0HZR9P1TMDDYAPPO
+[2026.01.30-20.49.36:194][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/HM0XBP0HZR9P1TMDDYAPPO790736674FC53ADBD7FAB0AFEAC0A051.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/4/G0/HM0XBP0HZR9P1TMDDYAPPO.uasset'
+[2026.01.30-20.49.36:205][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/B/SS/OYUS3NWKFKUYEHNFEZYPV8
+[2026.01.30-20.49.36:205][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/OYUS3NWKFKUYEHNFEZYPV86ABA2EAA4AED9531C7D7B78ACA889666.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/B/SS/OYUS3NWKFKUYEHNFEZYPV8.uasset'
+[2026.01.30-20.49.36:238][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/2/KA/VC7IYEN16O2V45RRL2QTB5
+[2026.01.30-20.49.36:238][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/VC7IYEN16O2V45RRL2QTB5A876C1DA4D7C0415AE351D9B0F6022AD.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/2/KA/VC7IYEN16O2V45RRL2QTB5.uasset'
+[2026.01.30-20.49.36:250][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/6/5W/YGY538BYMDR20ESVD463RT
+[2026.01.30-20.49.36:250][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/YGY538BYMDR20ESVD463RT865C05C14D149A4D3FC9668F40931F2A.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/6/5W/YGY538BYMDR20ESVD463RT.uasset'
+[2026.01.30-20.49.36:273][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/1/0O/0DJSI3W5OWA6UN948J735Y
+[2026.01.30-20.49.36:273][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/0DJSI3W5OWA6UN948J735Y0181A7F6452EF6124AE78CBA8658DFED.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/1/0O/0DJSI3W5OWA6UN948J735Y.uasset'
+[2026.01.30-20.49.36:287][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/B/38/UUAS8FKAYCSI0L4XTAP16G
+[2026.01.30-20.49.36:287][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/UUAS8FKAYCSI0L4XTAP16GAD0E78484137ACB4E30AA2BE19C56021.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/B/38/UUAS8FKAYCSI0L4XTAP16G.uasset'
+[2026.01.30-20.49.36:329][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/3/KI/S2GQD47738S9GZUMDAS2EU
+[2026.01.30-20.49.36:329][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/S2GQD47738S9GZUMDAS2EU17FA151446B656C92E55879321C47C9D.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/3/KI/S2GQD47738S9GZUMDAS2EU.uasset'
+[2026.01.30-20.49.36:349][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/4/IC/5JMI7YCXL0OLPLUKN6II8W
+[2026.01.30-20.49.36:349][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/5JMI7YCXL0OLPLUKN6II8W900AD235476E8B2E0729509F95ACEBF6.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/4/IC/5JMI7YCXL0OLPLUKN6II8W.uasset'
+[2026.01.30-20.49.36:391][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/9/IM/3CT0G0ECZGF83OT77F865V
+[2026.01.30-20.49.36:391][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/3CT0G0ECZGF83OT77F865V5C4B00D4446995BAEB8D48A605D81DB1.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/9/IM/3CT0G0ECZGF83OT77F865V.uasset'
+[2026.01.30-20.49.36:417][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/3/X2/RAZRWLDQR49IWW39JI313Z
+[2026.01.30-20.49.36:417][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/RAZRWLDQR49IWW39JI313Z5B1D4BFC46DACC8AF4661FADC64BEC8A.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/3/X2/RAZRWLDQR49IWW39JI313Z.uasset'
+[2026.01.30-20.49.36:449][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/0/72/X8O4EHJ6NJXI3KMO0JQKNV
+[2026.01.30-20.49.36:450][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/X8O4EHJ6NJXI3KMO0JQKNV9F2E69DA4285E2F0E6FD78958CE5AD50.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/0/72/X8O4EHJ6NJXI3KMO0JQKNV.uasset'
+[2026.01.30-20.49.36:460][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/9/AR/4LJ7L3MI5L91SSZT86INAR
+[2026.01.30-20.49.36:460][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/4LJ7L3MI5L91SSZT86INAR87D5E7ED45AF80EAEDDBB6BF0556901B.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/9/AR/4LJ7L3MI5L91SSZT86INAR.uasset'
+[2026.01.30-20.49.36:471][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/B/JN/SM1DK4MW93FD867NPYV4OH
+[2026.01.30-20.49.36:471][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/SM1DK4MW93FD867NPYV4OH633A5B2E43965E26C496FA8ACDE164C9.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/B/JN/SM1DK4MW93FD867NPYV4OH.uasset'
+[2026.01.30-20.49.36:481][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/9/FG/6Z2APH60P5RG5PJ2OP2WFJ
+[2026.01.30-20.49.36:481][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/6Z2APH60P5RG5PJ2OP2WFJE81B6709493E3E0300E116BAA97FF368.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/9/FG/6Z2APH60P5RG5PJ2OP2WFJ.uasset'
+[2026.01.30-20.49.36:492][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/4/LK/W94KY6U2TCIKO0V3AA1MKR
+[2026.01.30-20.49.36:492][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/W94KY6U2TCIKO0V3AA1MKR1065F0B04BF3EA936786D1978A547054.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/4/LK/W94KY6U2TCIKO0V3AA1MKR.uasset'
+[2026.01.30-20.49.36:502][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/D/01/J6Y335F111H1LP7DPVZX25
+[2026.01.30-20.49.36:502][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/J6Y335F111H1LP7DPVZX25AEB761A946B051C32203F8B07685E2A3.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/D/01/J6Y335F111H1LP7DPVZX25.uasset'
+[2026.01.30-20.49.36:514][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/C/T7/VO4ZU09OV8NOYST40E6TCL
+[2026.01.30-20.49.36:514][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/VO4ZU09OV8NOYST40E6TCLCCC006E346135607FECC78BC62790E55.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/C/T7/VO4ZU09OV8NOYST40E6TCL.uasset'
+[2026.01.30-20.49.36:524][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/C/VW/V6L79XIFK4FASH3T2HA078
+[2026.01.30-20.49.36:525][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/V6L79XIFK4FASH3T2HA07846C653C44605872D6B2AD39F7D2375DF.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/C/VW/V6L79XIFK4FASH3T2HA078.uasset'
+[2026.01.30-20.49.36:642][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/4/M2/F9KEYSLS6BHB8JRB5FV5YQ
+[2026.01.30-20.49.36:642][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/F9KEYSLS6BHB8JRB5FV5YQ470CA1BC4AA45F9978AD55B2E2DA6F38.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/4/M2/F9KEYSLS6BHB8JRB5FV5YQ.uasset'
+[2026.01.30-20.49.36:653][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/6/SX/2WDUIOBHJYJ412U3H8SA0S
+[2026.01.30-20.49.36:653][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/2WDUIOBHJYJ412U3H8SA0S9D10C274439E2D99B6E934AD9B97A4AE.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/6/SX/2WDUIOBHJYJ412U3H8SA0S.uasset'
+[2026.01.30-20.49.36:664][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/0/3P/9WAFJVLZ4XF6LHE4ACUWBL
+[2026.01.30-20.49.36:665][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/9WAFJVLZ4XF6LHE4ACUWBL6CB0FF204D888A687EB13D935051C3A9.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/0/3P/9WAFJVLZ4XF6LHE4ACUWBL.uasset'
+[2026.01.30-20.49.36:693][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/A/XG/9ONL4WSEF5QZWWBZDLCNIW
+[2026.01.30-20.49.36:693][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/9ONL4WSEF5QZWWBZDLCNIW7C419FE84B96EEED9727A7AAECCD338C.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/A/XG/9ONL4WSEF5QZWWBZDLCNIW.uasset'
+[2026.01.30-20.49.36:705][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/2/XF/ZVHI0U5Z2L0JNAD7AO2DK0
+[2026.01.30-20.49.36:705][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/ZVHI0U5Z2L0JNAD7AO2DK035BB141344E5DC30FF1F20862136C671.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/2/XF/ZVHI0U5Z2L0JNAD7AO2DK0.uasset'
+[2026.01.30-20.49.36:715][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/A/3W/ATL64U9ZEP59CJ6SFHVVXK
+[2026.01.30-20.49.36:715][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/ATL64U9ZEP59CJ6SFHVVXK1462A0CE453B9C96F0FA74BAE67B2914.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/A/3W/ATL64U9ZEP59CJ6SFHVVXK.uasset'
+[2026.01.30-20.49.36:724][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/C/WE/DUHGF13UEXYUS33HEL3A30
+[2026.01.30-20.49.36:724][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/DUHGF13UEXYUS33HEL3A30BD76E00C4FF3C273B5A4578D9112882F.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/C/WE/DUHGF13UEXYUS33HEL3A30.uasset'
+[2026.01.30-20.49.36:734][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/C/KT/53DOWL0G9SXNEFPH4H71QC
+[2026.01.30-20.49.36:734][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/53DOWL0G9SXNEFPH4H71QC9A2D80AC447512D975E1478900295C36.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/C/KT/53DOWL0G9SXNEFPH4H71QC.uasset'
+[2026.01.30-20.49.36:769][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/4/0I/D8MK9Y62JU3OPH601U4BKN
+[2026.01.30-20.49.36:769][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/D8MK9Y62JU3OPH601U4BKN4B6B0F31451125984E0B1B89F588EA36.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/4/0I/D8MK9Y62JU3OPH601U4BKN.uasset'
+[2026.01.30-20.49.36:779][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/4/SA/BF4X03F2A6ZPEVBWQZOWRJ
+[2026.01.30-20.49.36:779][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/BF4X03F2A6ZPEVBWQZOWRJFD84C93A41FF08A189FAA88030E975BA.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/4/SA/BF4X03F2A6ZPEVBWQZOWRJ.uasset'
+[2026.01.30-20.49.36:806][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/9/L4/N7Y0JJLA30JWMMJ4MLLR9I
+[2026.01.30-20.49.36:806][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/N7Y0JJLA30JWMMJ4MLLR9I3BC8EAF7454A5D8AA680D5AB66A4317C.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/9/L4/N7Y0JJLA30JWMMJ4MLLR9I.uasset'
+[2026.01.30-20.49.36:816][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/D/UD/R7NS3VIPMLQCX10FCTTVLM
+[2026.01.30-20.49.36:816][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/R7NS3VIPMLQCX10FCTTVLMD3D22E394B926BBEDFD791A25220EE7A.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/D/UD/R7NS3VIPMLQCX10FCTTVLM.uasset'
+[2026.01.30-20.49.36:954][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/5/TT/RLIYD3MCERW82NKSSO6O1S
+[2026.01.30-20.49.36:954][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/RLIYD3MCERW82NKSSO6O1S989E89FF4303EB4370FAB29F7A731545.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/5/TT/RLIYD3MCERW82NKSSO6O1S.uasset'
+[2026.01.30-20.49.36:963][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/7/UU/CXZX8ZESXNWGOA3KJ3K3M5
+[2026.01.30-20.49.36:963][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/CXZX8ZESXNWGOA3KJ3K3M5CF98080F415252134853CEADF5C80C76.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/7/UU/CXZX8ZESXNWGOA3KJ3K3M5.uasset'
+[2026.01.30-20.49.36:974][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/C/JK/MF234VF3ARDZ0BKUQKRJY0
+[2026.01.30-20.49.36:974][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/MF234VF3ARDZ0BKUQKRJY0EB0AC427434FFD490787D3829EE5622D.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/C/JK/MF234VF3ARDZ0BKUQKRJY0.uasset'
+[2026.01.30-20.49.36:983][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/B/SL/BLY7NMRFJIGILKP7VMDT8Z
+[2026.01.30-20.49.36:983][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/BLY7NMRFJIGILKP7VMDT8Z69BA696E4FFB4094A9A6A9A5AE97C2C4.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/B/SL/BLY7NMRFJIGILKP7VMDT8Z.uasset'
+[2026.01.30-20.49.36:994][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/5/97/4HAEGAG4JO96QQ1SWWCUF7
+[2026.01.30-20.49.36:994][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/4HAEGAG4JO96QQ1SWWCUF74B0CB14F414DCA1588FD2B908D997A99.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/5/97/4HAEGAG4JO96QQ1SWWCUF7.uasset'
+[2026.01.30-20.49.37:069][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/9/W3/MCGVV8BIQ6NQO1ENC13IUV
+[2026.01.30-20.49.37:069][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/MCGVV8BIQ6NQO1ENC13IUVAFA1BEC146E5BFB671F5529E9E705C01.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/9/W3/MCGVV8BIQ6NQO1ENC13IUV.uasset'
+[2026.01.30-20.49.37:080][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/7/KG/E2WTICFLJGL27H1IR49FWR
+[2026.01.30-20.49.37:080][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/E2WTICFLJGL27H1IR49FWR42D344D14E3F95B02DF7229B9A69DFA9.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/7/KG/E2WTICFLJGL27H1IR49FWR.uasset'
+[2026.01.30-20.49.37:121][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/1/FZ/RKTXR9HSNGIH6AA0AKL2RF
+[2026.01.30-20.49.37:121][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/RKTXR9HSNGIH6AA0AKL2RF85A96A844E26ED118B8CACBD25ED88B5.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/1/FZ/RKTXR9HSNGIH6AA0AKL2RF.uasset'
+[2026.01.30-20.49.37:173][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/D/LI/O6XJTCQ7W2HDVNATH6DMJR
+[2026.01.30-20.49.37:173][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/O6XJTCQ7W2HDVNATH6DMJRA7AF3DC04F01A7D6274C22AD6D0E5630.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/D/LI/O6XJTCQ7W2HDVNATH6DMJR.uasset'
+[2026.01.30-20.49.37:196][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/A/43/UMXQ1247NMSHUEPUNMG599
+[2026.01.30-20.49.37:196][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/UMXQ1247NMSHUEPUNMG59940C59BA5495F1FBB59F1A988A8971C82.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/A/43/UMXQ1247NMSHUEPUNMG599.uasset'
+[2026.01.30-20.49.37:226][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/C/FM/J6MWFGFY7L5HA8O3BYJRG8
+[2026.01.30-20.49.37:226][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/J6MWFGFY7L5HA8O3BYJRG8E9270F2B469333DC314386ABF3A54F49.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/C/FM/J6MWFGFY7L5HA8O3BYJRG8.uasset'
+[2026.01.30-20.49.37:236][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/8/RB/ZFD8ON5I9QVLKT7OGXHXRS
+[2026.01.30-20.49.37:236][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/ZFD8ON5I9QVLKT7OGXHXRSD283176046844EE641BC069A6C48F74A.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/8/RB/ZFD8ON5I9QVLKT7OGXHXRS.uasset'
+[2026.01.30-20.49.37:273][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/1/FB/NE6OQBNTFICC34OYG4MJO1
+[2026.01.30-20.49.37:273][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/NE6OQBNTFICC34OYG4MJO18DA929BF4F0CDEF38DD85E8622D73194.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/1/FB/NE6OQBNTFICC34OYG4MJO1.uasset'
+[2026.01.30-20.49.37:317][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/A/T4/D5IWHJ69VIHGSDFHJLQBGQ
+[2026.01.30-20.49.37:317][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/D5IWHJ69VIHGSDFHJLQBGQ1577070A4F5C672318574A8DC437C107.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/A/T4/D5IWHJ69VIHGSDFHJLQBGQ.uasset'
+[2026.01.30-20.49.37:341][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/3/14/94XSIDFEQEY3EQZVZIV91L
+[2026.01.30-20.49.37:341][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/94XSIDFEQEY3EQZVZIV91LF0784DF74BA062E4504785A74E9D84E7.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/3/14/94XSIDFEQEY3EQZVZIV91L.uasset'
+[2026.01.30-20.49.37:372][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/8/8Y/YF8IOF0HLR1KSEOR74YBWY
+[2026.01.30-20.49.37:372][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/YF8IOF0HLR1KSEOR74YBWYAAEE3DA248469190A67E989BEEDCF928.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/8/8Y/YF8IOF0HLR1KSEOR74YBWY.uasset'
+[2026.01.30-20.49.37:381][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/3/LE/JN45XW0UI4HY0YKSI4ZZJ8
+[2026.01.30-20.49.37:381][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/JN45XW0UI4HY0YKSI4ZZJ8971D2DD04B90BFF64E8EBB921DDE9EAD.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/3/LE/JN45XW0UI4HY0YKSI4ZZJ8.uasset'
+[2026.01.30-20.49.37:437][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/6/O9/JWWUALEP1KLCCU9PR0OTN4
+[2026.01.30-20.49.37:437][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/JWWUALEP1KLCCU9PR0OTN47832E30F43C7FAA8413C218E9F3C332D.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/6/O9/JWWUALEP1KLCCU9PR0OTN4.uasset'
+[2026.01.30-20.49.37:504][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/7/XW/APZ0Q3FT5WXUFHR9V9OVZS
+[2026.01.30-20.49.37:504][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/APZ0Q3FT5WXUFHR9V9OVZS578578D94C297BF03A2099863E0A481F.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/7/XW/APZ0Q3FT5WXUFHR9V9OVZS.uasset'
+[2026.01.30-20.49.37:516][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/B/78/M34UZMLPJ0HT71V5U6M9ED
+[2026.01.30-20.49.37:516][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/M34UZMLPJ0HT71V5U6M9ED749DA1C84F8DA3E4103C2EB10EA49025.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/B/78/M34UZMLPJ0HT71V5U6M9ED.uasset'
+[2026.01.30-20.49.37:524][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/2/5D/JVCBVY1M2EZW1IYKE61GTR
+[2026.01.30-20.49.37:524][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/JVCBVY1M2EZW1IYKE61GTR4525571742C2509F84685E965AD3A818.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/2/5D/JVCBVY1M2EZW1IYKE61GTR.uasset'
+[2026.01.30-20.49.37:559][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/7/2T/Q67Q4H5O6L14XPMN7TWL9S
+[2026.01.30-20.49.37:559][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/Q67Q4H5O6L14XPMN7TWL9SC3AAA0B4406B073DDBE6849E689ECD9F.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/7/2T/Q67Q4H5O6L14XPMN7TWL9S.uasset'
+[2026.01.30-20.49.37:570][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/1/35/BELH9TNTF4JH9QSAA788L8
+[2026.01.30-20.49.37:570][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/BELH9TNTF4JH9QSAA788L8548DE1DE42976C0FE4DFAC96BB149E06.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/1/35/BELH9TNTF4JH9QSAA788L8.uasset'
+[2026.01.30-20.49.37:590][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/5/M5/MJ9ESPFIMOFZQ4JDA3KIF6
+[2026.01.30-20.49.37:590][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/MJ9ESPFIMOFZQ4JDA3KIF68562E0EF4DB9561D4C1AE78BE3A8D1C7.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/5/M5/MJ9ESPFIMOFZQ4JDA3KIF6.uasset'
+[2026.01.30-20.49.37:613][978]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Level3/A/C7/XHNNUKOOZ4NQ8V4PUTAOH3
+[2026.01.30-20.49.37:613][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/XHNNUKOOZ4NQ8V4PUTAOH358A28CB643374EA4203B53934AB78733.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalActors__/FirstPerson/Level3/A/C7/XHNNUKOOZ4NQ8V4PUTAOH3.uasset'
+[2026.01.30-20.49.37:624][978]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/FirstPerson/Level3/8/1U/W02JX4AN6S1JCEQMGZ4BZ9
+[2026.01.30-20.49.37:624][978]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/W02JX4AN6S1JCEQMGZ4BZ974F1672049C0DB6D4E613EB776E1B415.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/__ExternalObjects__/FirstPerson/Level3/8/1U/W02JX4AN6S1JCEQMGZ4BZ9.uasset'
+[2026.01.30-20.49.37:687][978]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.86 sec
+[2026.01.30-20.49.37:862][978]LogFileHelpers: Saving map 'Level3' took 2.313
+[2026.01.30-20.49.37:862][978]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.60 sec (total: 5.46 sec)
+[2026.01.30-20.49.37:892][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.01.30-20.49.37:914][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.01.30-20.49.37:934][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.01.30-20.49.38:381][978]LogContentValidation: Display: Starting to validate 65 assets
+[2026.01.30-20.49.38:381][978]LogContentValidation: Enabled validators:
+[2026.01.30-20.49.38:468][978]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.30-20.49.38:468][978]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.30-20.49.38:468][978]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.30-20.49.38:468][978]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.30-20.49.38:468][978]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.30-20.49.38:468][978]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.30-20.49.38:470][978]AssetCheck: /Game/FirstPerson/Level3 Validating asset
+[2026.01.30-20.49.38:600][978]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.30-20.49.56:488][109]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5380.441406
+[2026.01.30-20.49.57:488][112]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-20.49.57:488][112]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5381.108398, Update Interval: 311.385834
+[2026.01.30-20.55.59:555][198]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5743.498535
+[2026.01.30-20.56.00:555][201]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-20.56.00:555][201]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5744.166016, Update Interval: 350.381165
+[2026.01.30-21.02.22:737][347]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6126.685547
+[2026.01.30-21.02.23:737][350]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-21.02.23:737][350]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6127.352051, Update Interval: 301.457550
+[2026.01.30-21.08.11:942][545]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6475.873535
+[2026.01.30-21.08.12:143][557]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-21.08.12:143][557]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6476.059570, Update Interval: 334.249084
+[2026.01.30-21.08.16:607][823]LogStreaming: Display: FlushAsyncLoading(393): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.30-21.08.18:110][824]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.01.30-21.08.18:287][825]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.01.30-21.08.18:483][826]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.01.30-21.14.39:927][724]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6863.860840
+[2026.01.30-21.14.40:929][727]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-21.14.40:929][727]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6864.528809, Update Interval: 313.343292
+[2026.01.30-21.20.30:321][775]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7214.261719
+[2026.01.30-21.20.31:320][778]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-21.20.31:320][778]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7214.929199, Update Interval: 336.481201
+[2026.01.30-21.22.07:284][ 66]LogDerivedDataCache: C:/Users/zyzy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.30-21.27.01:380][948]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7605.332031
+[2026.01.30-21.27.02:380][951]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-21.27.02:380][951]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7605.999023, Update Interval: 306.214783
+[2026.01.30-21.32.40:533][123]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7944.491699
+[2026.01.30-21.32.41:533][126]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-21.32.41:533][126]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7945.158203, Update Interval: 346.610931
+[2026.01.30-21.37.55:279][814]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.01.30-21.37.57:289][885]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.01.30-21.38.01:576][ 11]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.01.30-21.38.03:682][ 46]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.01.30-21.38.17:869][382]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.01.30-21.38.18:042][384]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.01.30-21.38.26:852][539]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2026.01.30-21.38.26:868][539]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Level3.Level3
+[2026.01.30-21.38.26:914][539]Cmd: MAP LOAD FILE="../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Level3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.01.30-21.38.27:034][539]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2026.01.30-21.38.27:055][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.30-21.38.27:055][539]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson
+[2026.01.30-21.38.27:200][539]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.30-21.38.27:301][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2026.01.30-21.38.27:322][539]LogWorld: UWorld::CleanupWorld for Level3, bSessionEnded=true, bCleanupResources=true
+[2026.01.30-21.38.27:322][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.30-21.38.27:322][539]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Level3.Level3
+[2026.01.30-21.38.27:342][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.01.30-21.38.27:362][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.01.30-21.38.27:362][539]LogStreaming: Display: FlushAsyncLoading(394): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.30-21.38.27:404][539]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level3'.
+[2026.01.30-21.38.27:404][539]LogChaosDD: Creating Chaos Debug Draw Scene for world Level3
+[2026.01.30-21.38.27:474][539]LogWorldPartition: ULevel::OnLevelLoaded(Level3)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2026.01.30-21.38.27:474][539]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.30-21.38.27:474][539]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Level3.Level3, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.30-21.38.28:301][539]LogWorldPartition: Display: WorldPartition initialize took 828.013 ms (total: 1.10 sec)
+[2026.01.30-21.38.28:502][539]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.01.30-21.38.28:526][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2026.01.30-21.38.28:546][539]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.01.30-21.38.28:547][539]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,613ms to complete.
+[2026.01.30-21.38.41:951][923]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2026.01.30-21.38.41:964][923]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.01.30-21.38.42:484][923]LogStreaming: Display: FlushAsyncLoading(458): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.30-21.38.48:980][923]LogSlate: Took 0.028863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.01.30-21.39.20:801][788]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Move.IA_Move
+[2026.01.30-21.39.20:986][788]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.01.30-21.39.26:204][879]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8350.165039
+[2026.01.30-21.39.27:205][882]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-21.39.27:206][882]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8350.833008, Update Interval: 338.997162
+[2026.01.30-21.39.42:387][273]LogContentBrowser: Deferred new asset file creation: IA_Move1
+[2026.01.30-21.39.42:418][273]LogContentBrowser: Creating deferred item: IA_Move1
+[2026.01.30-21.39.42:441][274]LogContentBrowser: Renaming the item being created (Deferred Item: IA_Move1).
+[2026.01.30-21.39.53:587][696]LogContentBrowser: Attempting asset rename: IA_Move1 -> IA_FLY
+[2026.01.30-21.39.53:602][696]LogContentBrowser: End creating deferred item IA_Move1
+[2026.01.30-21.40.04:771][261]LogContentBrowser: Attempting asset rename: IA_FLY -> IA_UPDOWN
+[2026.01.30-21.40.04:927][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.30-21.40.04:928][261]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/Actions/IA_UPDOWN] ([1] browsable assets)...
+[2026.01.30-21.40.04:928][261]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/Actions/IA_UPDOWN]
+[2026.01.30-21.40.04:928][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/Actions/IA_UPDOWN" FILE="../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/Input/Actions/IA_UPDOWN.uasset" SILENT=true
+[2026.01.30-21.40.04:937][261]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_UPDOWN
+[2026.01.30-21.40.04:938][261]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/IA_UPDOWNA7899E94436EE5CE5DB3D9A5DDB34E40.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/Input/Actions/IA_UPDOWN.uasset'
+[2026.01.30-21.40.04:939][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 12.007 ms (total: 5.47 sec)
+[2026.01.30-21.40.05:051][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2026.01.30-21.40.05:080][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2026.01.30-21.40.05:107][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.01.30-21.40.05:190][261]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.30-21.40.05:190][261]LogContentValidation: Enabled validators:
+[2026.01.30-21.40.05:191][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.30-21.40.05:191][261]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.30-21.40.05:191][261]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.30-21.40.05:191][261]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.30-21.40.05:191][261]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.30-21.40.05:191][261]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.30-21.40.05:191][261]AssetCheck: /Game/Input/Actions/IA_UPDOWN Validating asset
+[2026.01.30-21.40.05:214][261]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.30-21.40.09:831][367]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_UPDOWN.IA_UPDOWN
+[2026.01.30-21.40.53:711][328]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2026.01.30-21.41.27:324][208]LogEditCondition: Error: EnhancedActionKeyMapping - EditCondition attempted to use an invalid operand "SettingBehavior" (value error).
+[2026.01.30-21.42.01:128][ 16]LogContentBrowser: Attempting asset rename: IA_UPDOWN -> IA_UpDown
+[2026.01.30-21.42.01:506][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.01.30-21.42.01:536][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2026.01.30-21.42.01:564][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.01.30-21.42.01:611][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.01.30-21.42.01:644][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2026.01.30-21.42.01:676][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.01.30-21.43.15:607][361]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.30-21.43.15:688][361]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_Default] ([1] browsable assets)...
+[2026.01.30-21.43.15:697][361]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_Default]
+[2026.01.30-21.43.15:697][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/Input/IMC_Default.uasset" SILENT=true
+[2026.01.30-21.43.15:710][361]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2026.01.30-21.43.15:711][361]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/IMC_Default692452D04FA81500F3CDF589B6566601.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/Input/IMC_Default.uasset'
+[2026.01.30-21.43.15:721][361]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.267 ms (total: 5.59 sec)
+[2026.01.30-21.43.15:818][361]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.30-21.43.15:818][361]LogContentValidation: Enabled validators:
+[2026.01.30-21.43.15:818][361]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.30-21.43.15:818][361]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.30-21.43.15:818][361]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.30-21.43.15:818][361]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.30-21.43.15:818][361]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.30-21.43.15:818][361]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.30-21.43.15:838][361]AssetCheck: /Game/Input/IMC_Default Validating asset
+[2026.01.30-21.43.15:862][361]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.30-21.45.49:615][671]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8733.551758
+[2026.01.30-21.45.49:830][682]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-21.45.49:830][682]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8733.748047, Update Interval: 352.935577
+[2026.01.30-21.48.09:871][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.01.30-21.48.11:097][772]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.30-21.48.11:264][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.01.30-21.48.11:348][772]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2026.01.30-21.48.11:348][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.01.30-21.48.11:348][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter" FILE="../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2026.01.30-21.48.11:567][772]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.01.30-21.48.11:567][772]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/BP_FirstPersonCharacter5E98161B46449E336434599B9D8563AB.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.01.30-21.48.11:579][772]LogFileHelpers: InternalPromptForCheckoutAndSave took 482.408 ms (total: 6.07 sec)
+[2026.01.30-21.48.11:643][772]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.30-21.48.11:643][772]LogContentValidation: Enabled validators:
+[2026.01.30-21.48.11:643][772]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.30-21.48.11:643][772]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.30-21.48.11:643][772]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.30-21.48.11:643][772]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.30-21.48.11:643][772]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.30-21.48.11:643][772]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.30-21.48.11:643][772]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2026.01.30-21.48.11:670][772]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.30-21.48.14:680][947]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.30-21.48.14:684][947]LogContentBundle: [Level3(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.30-21.48.14:684][947]LogWorldPartition: Display: GenerateStreaming for 'Level3' started...
+[2026.01.30-21.48.14:685][947]LogWorldPartition: Display: GenerateStreaming for 'Level3' took 796 us (total: 34.740 ms)
+[2026.01.30-21.48.14:688][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.30-21.48.14:688][947]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Level3
+[2026.01.30-21.48.14:694][947]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.30-21.48.14:696][947]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.603 ms (total: 4.555 ms)
+[2026.01.30-21.48.14:696][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008502s)
+[2026.01.30-21.48.14:696][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Level3.Level3 to /Game/FirstPerson/UEDPIE_0_Level3.Level3 (0.008557s)
+[2026.01.30-21.48.14:733][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.01.30-21.48.14:735][947]LogChaosDD: Creating Chaos Debug Draw Scene for world Level3
+[2026.01.30-21.48.14:737][947]LogWorldPartition: ULevel::OnLevelLoaded(Level3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.30-21.48.14:737][947]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.30-21.48.14:737][947]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Level3.Level3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.30-21.48.14:737][947]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.30-21.48.14:739][947]LogWorldPartition: Display: WorldPartition initialize took 1.862 ms (total: 1.10 sec)
+[2026.01.30-21.48.14:739][947]LogPlayLevel: PIE: World Init took: (0.004233s)
+[2026.01.30-21.48.14:740][947]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.01.30-21.48.14:740][947]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.30-21.48.14:740][947]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.30-21.48.14:740][947]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.30-21.48.14:740][947]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.30-21.48.14:740][947]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.30-21.48.14:740][947]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.30-21.48.14:741][947]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.30-21.48.14:741][947]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.30-21.48.14:741][947]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.30-21.48.14:741][947]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.30-21.48.14:741][947]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.30-21.48.14:743][947]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.30-21.48.14:770][947]LogAudioMixer: Display: Using Audio Hardware Device Hoparlör (Realtek(R) Audio)
+[2026.01.30-21.48.14:770][947]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.30-21.48.14:770][947]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.30-21.48.14:770][947]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.30-21.48.14:771][947]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.01.30-21.48.14:771][947]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.01.30-21.48.14:773][947]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.01.30-21.48.14:773][947]LogInit: FAudioDevice initialized with ID 4.
+[2026.01.30-21.48.14:773][947]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.01.30-21.48.14:773][947]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level3'.
+[2026.01.30-21.48.14:773][947]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.01.30-21.48.14:782][947]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.01.30-21.48.14:785][947]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Level3.Level3 up for play (max tick rate 60) at 2026.01.31-00.48.14
+[2026.01.30-21.48.14:785][947]LogWorld: Bringing up level for play took: 0.003195
+[2026.01.30-21.48.14:788][947]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2026.01.30-21.48.14:796][947]PIE: Server logged in
+[2026.01.30-21.48.14:799][947]PIE: Play in editor total start time 0,114 seconds.
+[2026.01.30-21.48.23:966][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.30-21.48.23:966][ 76]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Level3
+[2026.01.30-21.48.23:966][ 76]LogWorld: UWorld::CleanupWorld for Level3, bSessionEnded=true, bCleanupResources=true
+[2026.01.30-21.48.23:968][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.30-21.48.23:968][ 76]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Level3.Level3
+[2026.01.30-21.48.24:426][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.30-21.48.24:435][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.30-21.48.24:464][ 76]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.30-21.48.24:475][ 76]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.01.30-21.48.24:475][ 76]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.01.30-21.48.24:478][ 76]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.01.30-21.48.24:490][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.30-21.48.24:505][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2026.01.30-21.48.24:527][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2026.01.30-21.48.49:506][153]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2026.01.30-21.48.49:507][153]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Level3' took 0.035
+[2026.01.30-21.48.49:513][153]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/Actions/IA_UpDown] ([1] browsable assets)...
+[2026.01.30-21.48.49:513][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/Actions/IA_UpDown]
+[2026.01.30-21.48.49:513][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/Actions/IA_UpDown" FILE="../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/Autosaves/Game/Input/Actions/IA_UpDown_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2026.01.30-21.48.49:607][153]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Input/Actions/IA_UpDown_Auto1
+[2026.01.30-21.48.49:607][153]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/IA_UpDown_Auto123D5046246E43E57396370BC022F69F9.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/Autosaves/Game/Input/Actions/IA_UpDown_Auto1.uasset'
+[2026.01.30-21.48.49:608][153]LogFileHelpers: Auto-saving content packages took 0.098
+[2026.01.30-21.52.31:657][ 78]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9135.612305
+[2026.01.30-21.52.32:657][ 81]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-21.52.32:657][ 81]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9136.279297, Update Interval: 317.712341
+[2026.01.30-21.57.50:099][ 15]LogSlate: Took 0.095448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2026.01.30-21.58.34:533][569]LogEditorTransaction: Undo Break Pin Links
+[2026.01.30-21.58.44:344][827]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9508.316406
+[2026.01.30-21.58.45:345][830]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-21.58.45:345][830]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9508.982422, Update Interval: 359.097260
+[2026.01.30-22.00.26:333][720]LogEditorTransaction: Undo Create Reroute Node
+[2026.01.30-22.03.41:354][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2026.01.30-22.03.42:752][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.30-22.03.43:010][344]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.01.30-22.03.43:114][344]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2026.01.30-22.03.43:114][344]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.01.30-22.03.43:114][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter" FILE="../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2026.01.30-22.03.43:202][344]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.01.30-22.03.43:203][344]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/BP_FirstPersonCharacter334E60C94EA98FE2FFD22284FEE14C7D.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.01.30-22.03.43:223][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 470.823 ms (total: 6.54 sec)
+[2026.01.30-22.03.43:319][344]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.30-22.03.43:319][344]LogContentValidation: Enabled validators:
+[2026.01.30-22.03.43:319][344]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.30-22.03.43:319][344]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.30-22.03.43:319][344]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.30-22.03.43:319][344]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.30-22.03.43:319][344]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.30-22.03.43:319][344]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.30-22.03.43:319][344]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2026.01.30-22.03.49:437][538]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.30-22.03.49:443][538]LogContentBundle: [Level3(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.01.30-22.03.49:443][538]LogWorldPartition: Display: GenerateStreaming for 'Level3' started...
+[2026.01.30-22.03.49:444][538]LogWorldPartition: Display: GenerateStreaming for 'Level3' took 818 us (total: 35.558 ms)
+[2026.01.30-22.03.49:444][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.30-22.03.49:466][538]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Level3
+[2026.01.30-22.03.49:472][538]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.01.30-22.03.49:474][538]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.446 ms (total: 6.001 ms)
+[2026.01.30-22.03.49:474][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007790s)
+[2026.01.30-22.03.49:474][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Level3.Level3 to /Game/FirstPerson/UEDPIE_0_Level3.Level3 (0.007841s)
+[2026.01.30-22.03.49:505][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.01.30-22.03.49:507][538]LogChaosDD: Creating Chaos Debug Draw Scene for world Level3
+[2026.01.30-22.03.49:510][538]LogWorldPartition: ULevel::OnLevelLoaded(Level3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.01.30-22.03.49:510][538]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.30-22.03.49:510][538]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Level3.Level3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.01.30-22.03.49:510][538]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.01.30-22.03.49:511][538]LogWorldPartition: Display: WorldPartition initialize took 1.716 ms (total: 1.10 sec)
+[2026.01.30-22.03.49:511][538]LogPlayLevel: PIE: World Init took: (0.003999s)
+[2026.01.30-22.03.49:513][538]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.01.30-22.03.49:513][538]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.30-22.03.49:513][538]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.30-22.03.49:513][538]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.30-22.03.49:513][538]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.30-22.03.49:513][538]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.30-22.03.49:513][538]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.30-22.03.49:513][538]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.30-22.03.49:513][538]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.30-22.03.49:513][538]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.30-22.03.49:513][538]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.30-22.03.49:513][538]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.30-22.03.49:516][538]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.30-22.03.49:543][538]LogAudioMixer: Display: Using Audio Hardware Device Hoparlör (Realtek(R) Audio)
+[2026.01.30-22.03.49:543][538]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.30-22.03.49:543][538]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.30-22.03.49:543][538]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.30-22.03.49:544][538]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.01.30-22.03.49:544][538]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.01.30-22.03.49:548][538]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.01.30-22.03.49:548][538]LogInit: FAudioDevice initialized with ID 5.
+[2026.01.30-22.03.49:548][538]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.01.30-22.03.49:548][538]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level3'.
+[2026.01.30-22.03.49:548][538]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.01.30-22.03.49:552][538]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.01.30-22.03.49:554][538]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Level3.Level3 up for play (max tick rate 60) at 2026.01.31-01.03.49
+[2026.01.30-22.03.49:554][538]LogWorld: Bringing up level for play took: 0.003032
+[2026.01.30-22.03.49:557][538]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2026.01.30-22.03.49:565][538]PIE: Server logged in
+[2026.01.30-22.03.49:568][538]PIE: Play in editor total start time 0,125 seconds.
+[2026.01.30-22.04.13:577][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.30-22.04.13:577][580]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Level3
+[2026.01.30-22.04.13:578][580]LogWorld: UWorld::CleanupWorld for Level3, bSessionEnded=true, bCleanupResources=true
+[2026.01.30-22.04.13:579][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.30-22.04.13:579][580]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Level3.Level3
+[2026.01.30-22.04.13:581][580]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.30-22.04.13:587][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.30-22.04.13:620][580]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.30-22.04.13:620][580]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.01.30-22.04.13:620][580]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.01.30-22.04.13:623][580]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.01.30-22.04.13:627][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.30-22.04.13:631][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.01.30-22.04.13:656][581]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2026.01.30-22.04.18:764][733]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.30-22.04.18:832][733]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.01.30-22.04.18:832][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.01.30-22.04.18:832][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter" FILE="../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2026.01.30-22.04.18:871][733]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.01.30-22.04.18:872][733]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/BP_FirstPersonCharacter8178559F420384DC6B4F9B8570F6F533.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.01.30-22.04.18:887][733]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.054 ms (total: 6.66 sec)
+[2026.01.30-22.04.18:977][733]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.30-22.04.18:978][733]LogContentValidation: Enabled validators:
+[2026.01.30-22.04.18:978][733]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.30-22.04.18:978][733]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.30-22.04.18:978][733]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.30-22.04.18:978][733]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.30-22.04.18:978][733]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.30-22.04.18:978][733]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.30-22.04.18:978][733]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2026.01.30-22.05.31:764][937]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9915.722656
+[2026.01.30-22.05.32:009][948]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.30-22.05.32:009][948]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9915.948242, Update Interval: 306.941742
+[2026.01.30-22.06.10:658][734]LogEditorTransaction: Undo Move Node
+[2026.01.30-22.06.12:338][789]LogEditorTransaction: Undo Rename Node
+[2026.01.30-22.06.12:982][809]LogEditorTransaction: Undo Add Node
+[2026.01.30-22.06.40:622][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2026.01.30-22.06.41:357][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.30-22.06.41:450][ 45]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.01.30-22.06.41:507][ 45]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2026.01.30-22.06.41:507][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.01.30-22.06.41:507][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter" FILE="../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" SILENT=true
+[2026.01.30-22.06.41:550][ 45]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.01.30-22.06.41:551][ 45]LogSavePackage: Moving '../../../Unreal Projects/GGJ/GGJ_Puzzle/Saved/BP_FirstPersonCharacter8179CECA4B89E16AA3A4FA94D66D9448.tmp' to '../../../Unreal Projects/GGJ/GGJ_Puzzle/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.01.30-22.06.41:567][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave took 210.083 ms (total: 6.87 sec)
+[2026.01.30-22.06.41:651][ 45]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.30-22.06.41:651][ 45]LogContentValidation: Enabled validators:
+[2026.01.30-22.06.41:651][ 45]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.30-22.06.41:651][ 45]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.30-22.06.41:651][ 45]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.30-22.06.41:651][ 45]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.30-22.06.41:651][ 45]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.30-22.06.41:651][ 45]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.30-22.06.41:651][ 45]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
