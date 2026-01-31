@@ -1,0 +1,11 @@
+{
+	"SourceFiles": [
+		"D:\\Program Files\\Epic Games\\UE_5.6\\Unreal Projects\\GGJ\\GGJ_Puzzle\\Plugins\\FMODStudioNiagara\\Source\\FMODStudioNiagara\\FMODStudioNiagara.Build.cs",
+		"D:\\Program Files\\Epic Games\\UE_5.6\\Unreal Projects\\GGJ\\GGJ_Puzzle\\Plugins\\FMODStudioOpenXR\\Source\\FMODStudioOpenXR\\FMODStudioOpenXR.Build.cs",
+		"D:\\Program Files\\Epic Games\\UE_5.6\\Unreal Projects\\GGJ\\GGJ_Puzzle\\Plugins\\FMODStudio\\Source\\FMODAudioLinkEditor\\FMODAudioLinkEditor.Build.cs",
+		"D:\\Program Files\\Epic Games\\UE_5.6\\Unreal Projects\\GGJ\\GGJ_Puzzle\\Plugins\\FMODStudio\\Source\\FMODAudioLink\\FMODAudioLink.Build.cs",
+		"D:\\Program Files\\Epic Games\\UE_5.6\\Unreal Projects\\GGJ\\GGJ_Puzzle\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
+		"D:\\Program Files\\Epic Games\\UE_5.6\\Unreal Projects\\GGJ\\GGJ_Puzzle\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs"
+	],
+	"EngineVersion": "5.6.1"
+}
